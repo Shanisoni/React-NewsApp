@@ -1,0 +1,21 @@
+{
+  "name": "react-news-app-main",
+  "version": "1.0.0",
+  "description": "This is a full-stack web application that displays the latest news articles from various tech websites. The app allows users to read the latest tech news articles from popular websites without having to navigate to each website individually.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "vite": "^6.1.1"
+  }
+}
