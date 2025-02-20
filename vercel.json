@@ -1,13 +1,16 @@
 {
-  "builds": [
+  "projects": [
     {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "name": "client",
+      "rootDirectory": "client",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
     },
     {
-      "src": "server/package.json",
-      "use": "@vercel/node"
+      "name": "server",
+      "rootDirectory": "server",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
     }
   ],
   "rewrites": [
@@ -17,3 +20,5 @@
     }
   ]
 }
+
+
